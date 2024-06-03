@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  mxbai-embed:
+    image: mxbai-embed
+    container_name: mxbai-embed
+    ports:
+      - "5000:5000"
